@@ -7,9 +7,10 @@ import { TitleComponent }     from './title.component';
 import { UserService }        from './user.service';
 
 import { ContactModule }   from './contact/contact.module';
+import { routing } from './app.routing';
 
 @NgModule({
-  imports: [ BrowserModule, ContactModule ],
+  imports: [ BrowserModule, ContactModule, routing ],
   declarations: [ 
     AppComponent, HighlightDirective, TitleComponent
   ],
