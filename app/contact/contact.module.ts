@@ -12,6 +12,7 @@ import { HighlightDirective } from './highlight.directive';
   declarations: [ 
      HighlightDirective, AwesomePipe, ContactComponent
   ],
+  exports: [ContactComponent],
   providers: [ ContactService ]  
 })
 export class ContactModule { }
